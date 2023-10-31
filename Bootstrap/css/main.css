@@ -24,10 +24,10 @@ td{
 
 .grid-container2{
     display: inline-grid;
-    grid-template-columns: 125px 125px 125px 125px 125px;
+    grid-template-columns: 250px 250px 250px 250px 250px;
     column-gap: 2px;
     border-radius: 10px;
-    padding-left: 85%;
+    padding-left: 12.5%;
 }
 
 ul{
