@@ -83,15 +83,6 @@ header{
     color: black;
 }
 
-.sbar button{
-    width: 100%;
-    height: 5%;
-    margin: auto;
-    text-align: center;
-    background: transparent;
-    border: 0;
-}
-
 .sbar button:hover{
     background-color: orange;
     color: white;

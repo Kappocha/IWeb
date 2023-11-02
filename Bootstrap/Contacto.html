@@ -9,35 +9,35 @@
       <header>
          <div class="sbar">
                <ul class="mLateral">
-                  <li> <a href="Main.html"> <button> Main </button> </a> </li>
-                  <li> <a href="Login.html"> <button> Login </button> </a> </li>
-                  <li> <a href="Registro.html"> <button> Registro </button> </a> </li>
-                  <li> <a href="Montaje.html"> <button> Montaje </button> </a> </li>
-                  <li> <a href="Portatiles.html"> <button> Portatiles </button> </a> </li>
-                  <li> <a href="Ordenadores.html"> <button> Ordenadores </button> </a> </li>
-                  <li> <a href="Componentes.html"> <button>Componentes </button> </a> </li>
-                  <li> <a href="Contacto.html"> <button> Contacto </button> </a> </li>
+                  <li> <a href="Main.html"> <button type="button" class="btn"> Main </button> </a> </li>
+                  <li> <a href="Login.html"> <button type="button" class="btn"> Login </button> </a> </li>
+                  <li> <a href="Registro.html"> <button type="button" class="btn"> Registro </button> </a> </li>
+                  <li> <a href="Montaje.html"> <button type="button" class="btn"> Montaje </button> </a> </li>
+                  <li> <a href="Portatiles.html"> <button type="button" class="btn"> Portatiles </button> </a> </li>
+                  <li> <a href="Ordenadores.html"> <button type="button" class="btn"> Ordenadores </button> </a> </li>
+                  <li> <a href="Componentes.html"> <button type="button" class="btn">Componentes </button> </a> </li>
+                  <li> <a href="Contacto.html"> <button type="button" class="btn"> Contacto </button> </a> </li>
                </ul>
          </div> 
       </header>
-      <div class="pagtotal">
+      <div class="pagtotal" class="container">
          <h1> Contacto </h1>
-         <div class="fcontacto">
-            <form>
-            Nombre <br>
-            <input type="text"><br>
-            Correo <br>
-            <input type="text"> <br>
-            Que es lo que necesita? <br>
-            <textarea> </textarea> <br>
-            <input type="submit" value="Enviar Correo">
-         </form>
-         </div>
-         
+            <form action="#">
+               <div class="form-group">
+                  <label for="email"> Email: </label>
+                  <input type="email" class="form-control" id="email" placeholder="Ingrese Correo" name="email">
+               </div>
+               <div class="form-group">
+                  <label for="nombre"> Nombre: </label>
+                  <input type="text" >
+               </div>
+            </form>
       </div>
       <footer>
-         <a class="Infer"> CompCost </a>
-         <a> Terminos y condiciones </a>
+         <div class="container">
+            <a class="Infer"> CompCost </a>
+            <a> Terminos y condiciones </a>
+         </div>
       </footer>
    </body>
 </html>
