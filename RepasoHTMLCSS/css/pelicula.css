@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+main {
+    padding: 20px;
+}
+  
+.img {
+    height: 40px;
+    margin-right: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+  
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-left: 30%;
+}
+
+.grid-item {
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.container {
+    text-align: center; 
+    width: 800px;
+    margin: 50px auto; 
+}
+
+.lista-info {
+    list-style: none;
+    padding: 0;
+}

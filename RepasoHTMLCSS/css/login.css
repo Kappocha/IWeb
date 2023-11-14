@@ -1,0 +1,46 @@
+.reglogin{
+    border: 1px solid black;
+    margin: auto;
+    width: 20%;
+    top: 50%;
+    position: abosolute;
+    height: 30%;
+    box-shadow: 10px 5px 5px rgb(93, 93, 93);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.div-login button {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.reglogin a{
+    margin: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.div-email{
+    margin: 3px;
+}
+
+.div-pw{
+    margin: 3px;
+}
+
+.div-login{
+    margin: 3px;
+}
+
+.div-remember{
+    margin: 3px;
+}
+
+body {
+    margin: 0;
+    background-color: gray;
+}
