@@ -1,0 +1,38 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.tabla-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tabla{
+    border-collapse: collapse;
+}
+
+.tabla td {
+    padding: 20px;
+    text-align: center;
+}
+
+.tabla button {
+    border: none;
+    background: aquamarine;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tabla button:hover{
+    border: none;
+    background: blue;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
