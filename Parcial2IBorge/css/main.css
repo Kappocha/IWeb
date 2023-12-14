@@ -1,0 +1,114 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+header img {
+    margin-right: 50%;
+    align-items: flex-start;
+}
+
+nav {
+    align-items: flex-end;
+    margin-left: 60%;    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#000000, #e4e4e4);
+}
+
+.btn {
+    margin-top: 10%;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.muchotext {
+    margin-left: 3%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.muchotext span {
+    width: 50%;
+    padding-right: 300px;
+    text-align: center;
+    color: white;
+}
+
+.muchotext img {
+    width: 35%;
+    height: 35%;
+}
+
+.grid-box {
+    border-radius: 5px
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.grid-item2 {
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -50px
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.spam {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-containerp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.cwh {
+    color: white;
+}

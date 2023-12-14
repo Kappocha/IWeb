@@ -1,0 +1,88 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+header img {
+    margin-right: 50%;
+    align-items: flex-start;
+}
+
+nav {
+    align-items: flex-end;
+    margin-left: 60%;    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#000000, #e4e4e4);
+}
+
+.btn {
+    margin-top: 10%;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid-item {
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.container {
+    text-align: center; 
+    width: 800px;
+    margin: 50px auto; 
+}
+
+.container img {
+    justify-content: center;
+}
+
+.lista-info {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-info ul{
+    color: white;
+    margin-right: 4%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.presio {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.gaming {
+    color:red;
+}
